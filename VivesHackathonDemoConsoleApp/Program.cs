@@ -23,7 +23,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             // Computer Vision
-            var cv = new ComputerVisionClass("boodschappenlijstje-test.png");
+            var cv = new ComputerVisionClass("<LOCAL IMAGE FILE HERE>");
             var items = cv.ReadFile().GetAwaiter().GetResult();
 
             printItems(items, "Extracted items:");
