@@ -6,7 +6,7 @@ using System.Reflection;
 using VivesHackathonDemoConsoleApp;
 using System.Linq;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace VivesHackathonDemoConsoleApp
 {
     class Program
     {
